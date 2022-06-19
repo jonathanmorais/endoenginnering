@@ -3,9 +3,13 @@ package main
 // Importing fmt
 import (
 	"fmt"
+	"github.com/Depado/ginprom"
 	"github.com/gin-gonic/gin"
 	"github.com/jonathanmorais/endoenginnering/t1d-api/controllers/calculate"
 	"github.com/jonathanmorais/endoenginnering/t1d-api/controllers/healthcheck"
+	"github.com/jonathanmorais/endoenginnering/t1d-api/controllers/liveness"
+	"github.com/jonathanmorais/endoenginnering/t1d-api/controllers/readiness"
+	"github.com/jonathanmorais/endoenginnering/t1d-api/controllers/version"
 	"github.com/jonathanmorais/endoenginnering/t1d-api/pkg/memory_cache"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
@@ -45,6 +49,27 @@ func main() {
 
 	// Creates a gin router with default middleware:
 	router := gin.New()
+
+	// Prometheus Exporter Config
+	p := ginprom.New(
+		ginprom.Engine(router),
+		ginprom.Subsystem("gin"),
+		ginprom.Path("/metrics"),
+	)
+
+	//Middlewares
+	router.Use(p.Instrument())
+	router.Use(gin.Recovery())
+
+	// Healthcheck Router
+	router.GET("/healthcheck", healthcheck.Ok)
+
+	// Version Router
+	router.GET("/version", version.Get)
+
+	// Liveness and Readiness
+	router.GET("/liveness", liveness.Ok)
+	router.GET("/readiness", readiness.Ok)
 	router.GET("/health", healthcheck.Ok)
 	router.POST("/calculate", calculate.Calculate)
 
