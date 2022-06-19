@@ -62,7 +62,7 @@ jobs:
 
       - name: Docker Tag Release
         run: |
-          TAG=$(git describe --tags --abbrev=0)
+          TAG=$(git rev-parse --short HEAD)
           docker tag t1d-api:latest jonathan99/t1d-api:$TAG
       - name: Login to DockerHub
         uses: docker/login-action@v1
@@ -77,5 +77,5 @@ jobs:
       - name: Docker Push Release Tag
         working-directory: t1d-api
         run: |
-          TAG=$(git describe --tags --abbrev=0)
+          TAG=$(git rev-parse --short HEAD)
           docker push jonathan99/t1d-api:$TAG
