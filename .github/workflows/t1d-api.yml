@@ -65,7 +65,7 @@ jobs:
           TAG=$(git rev-parse --short HEAD)
           docker tag t1d-api:latest jonathan99/t1d-api:$TAG
       - name: Login to DockerHub
-        uses: docker/login-action@v1
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASS }}
