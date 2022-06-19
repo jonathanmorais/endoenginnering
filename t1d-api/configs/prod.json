@@ -1,0 +1,5 @@
+{
+  "Application": "t1d-api",
+  "Env": "prod",
+  "Version": "v1"
+}

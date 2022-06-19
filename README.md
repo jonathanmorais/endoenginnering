@@ -1,3 +1,3 @@
 # endoenginnering
 
-a complete solution for Type 1 Diabetes calculate. ​👨‍🔬​🔎​🔬​🧪​💉​🏥​💉
+A  solution for type-1 diabetes calculate. ​👨‍🔬​🔎​🔬​🧪​💉​🏥​💉
