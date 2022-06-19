@@ -79,8 +79,3 @@ jobs:
         run: |
           TAG=$(git describe --tags --abbrev=0)
           docker push jonathan99/t1d-api:$TAG
-
-  © 2022 GitHub, Inc.
-  Terms
-  Privacy
-  Security
