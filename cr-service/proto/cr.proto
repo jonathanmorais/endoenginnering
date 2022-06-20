@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package cr;
+
+option go_package = "service/cr";
+
+message Message {
+  double ratioCalc = 1;
+}
+
+message Response {
+  int64 value  = 1 ;
+}
+
+service CrService {
+  rpc SayHello(Message) returns (Response) {}
+}
