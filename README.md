@@ -4,7 +4,7 @@ A api to provide type-1 diabetes summary calculate. ​👨‍🔬​🔎​🔬
 
 ## Workflow
 
-![Workflow](.github/images/opencontract.png)
+![Workflow](.github/images/flow.png)
 
 # microservices summary
 
