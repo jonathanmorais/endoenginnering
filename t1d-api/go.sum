@@ -147,8 +147,14 @@ github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ
 github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
 github.com/jonathanmorais/endoenginnering/cr-service v0.0.0-20220614220114-c2aba3647e4f h1:sv1HckJJLM3r5gBpPBtJDo23Rkdlhh7uPnkNFzsCFcM=
 github.com/jonathanmorais/endoenginnering/cr-service v0.0.0-20220614220114-c2aba3647e4f/go.mod h1:6l9ZeR3a1/M3IRC3oq0P4GdeP1yngG1IrhCdkk46c9Q=
+github.com/jonathanmorais/endoenginnering/cr-service v0.0.0-20220621180251-f46842095b7d h1:mZ4BQ8w8Qkf65p9/YokwuiGj9Uru+xicdMHjN2OFSXw=
+github.com/jonathanmorais/endoenginnering/cr-service v0.0.0-20220621180251-f46842095b7d/go.mod h1:2L9mHkezw2rjypNJplbVpKmAoy2ZDDUnTF0PPO1UKbM=
 github.com/jonathanmorais/endoenginnering/isf-service v0.0.0-20220614220114-c2aba3647e4f h1:bWclFqTn+kzxu81MtmQZQ7fogupSmLJvJypzojisAGU=
 github.com/jonathanmorais/endoenginnering/isf-service v0.0.0-20220614220114-c2aba3647e4f/go.mod h1:df37FMOswUqEsk7MoTyffgQDntwtduRjmJkZbhbnorI=
+github.com/jonathanmorais/endoenginnering/isf-service v0.0.0-20220621180251-f46842095b7d h1:5Eqs1cwzCd8isoo4L/SzmjTaC5ZVOCqqTnhjC+IDhlA=
+github.com/jonathanmorais/endoenginnering/isf-service v0.0.0-20220621180251-f46842095b7d/go.mod h1:df37FMOswUqEsk7MoTyffgQDntwtduRjmJkZbhbnorI=
+github.com/jonathanmorais/endoenginnering/rec-service v0.0.3 h1:HFhqBGmWweb8VHU9IpKW2zq9ReCrq7smS6SivZesPl8=
+github.com/jonathanmorais/endoenginnering/rec-service v0.0.3/go.mod h1:ys+U7o08ek9ji+dTFH2b2o1AR+oOOUpUHheM/6ArQyQ=
 github.com/jonathanmorais/endoenginnering/t1d-api/controllers/calculate v0.0.0-20220615215556-29a094b23526 h1:FU5yP+eas8i7N0UxYW7MsnQi+uzLxklkxyVDdVCPYO4=
 github.com/jonathanmorais/endoenginnering/t1d-api/controllers/calculate v0.0.0-20220615215556-29a094b23526/go.mod h1:QnF3eLOGaim83hWPDH9qJw75EJBLRAskC3Hpmzu2+/Q=
 github.com/jonathanmorais/endoenginnering/t1d-api/controllers/healthcheck v0.0.0-20220615215556-29a094b23526 h1:/kWUZ+GOoNpgWZvCzTkA/so5VesHYl0cJI2g70DFv1Q=

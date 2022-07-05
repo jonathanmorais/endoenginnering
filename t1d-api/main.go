@@ -3,6 +3,10 @@ package main
 // Importing fmt
 import (
 	"fmt"
+	"os"
+	"strconv"
+	"time"
+
 	"github.com/Depado/ginprom"
 	"github.com/gin-gonic/gin"
 	"github.com/jonathanmorais/endoenginnering/t1d-api/controllers/calculate"
@@ -13,9 +17,6 @@ import (
 	"github.com/jonathanmorais/endoenginnering/t1d-api/pkg/memory_cache"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
-	"os"
-	"strconv"
-	"time"
 )
 
 // Calling main
