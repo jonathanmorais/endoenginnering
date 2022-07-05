@@ -22,6 +22,10 @@ github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaS
 github.com/google/go-cmp v0.5.5 h1:Khx7svrCpmxxtHBq5j2mp/xVjsi8hQMfNLvJFAlrGgU=
 github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/M65Eg=
+github.com/jonathanmorais/endo-enginnering/cr-service v0.0.0-20220614203143-80c39f50eb34 h1:mXw81VyrC6nTT5Ja+UD/0sdN9PHGo7fIK3lG+yln3xM=
+github.com/jonathanmorais/endo-enginnering/cr-service v0.0.0-20220614203143-80c39f50eb34/go.mod h1:hGlmvgvb8oxYILNvq6GT3ZBsgStQbHNOVQjzuaL2HDE=
+github.com/jonathanmorais/endo-enginnering/isf-service v0.0.0-20220614203143-80c39f50eb34 h1:bN2RQ7fiszOnFeKrxiBNX9smm6FmDkSF11P/tZqmqkg=
+github.com/jonathanmorais/endo-enginnering/isf-service v0.0.0-20220614203143-80c39f50eb34/go.mod h1:4JlP+4mg7TfxsykmMPvsFMK5dR8YtDlx4pXzfGWcgrI=
 github.com/jonathanmorais/endoenginnering/cr-service v0.0.0-20220621180251-f46842095b7d h1:mZ4BQ8w8Qkf65p9/YokwuiGj9Uru+xicdMHjN2OFSXw=
 github.com/jonathanmorais/endoenginnering/cr-service v0.0.0-20220621180251-f46842095b7d/go.mod h1:2L9mHkezw2rjypNJplbVpKmAoy2ZDDUnTF0PPO1UKbM=
 github.com/jonathanmorais/endoenginnering/isf-service v0.0.0-20220621180251-f46842095b7d h1:5Eqs1cwzCd8isoo4L/SzmjTaC5ZVOCqqTnhjC+IDhlA=

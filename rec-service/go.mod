@@ -15,6 +15,8 @@ require (
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-playground/validator/v10 v10.10.0 // indirect
 	github.com/goccy/go-json v0.9.7 // indirect
+	github.com/jonathanmorais/endo-enginnering/cr-service v0.0.0-20220614203143-80c39f50eb34 // indirect
+	github.com/jonathanmorais/endo-enginnering/isf-service v0.0.0-20220614203143-80c39f50eb34 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
