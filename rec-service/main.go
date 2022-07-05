@@ -1,4 +1,4 @@
-package recommend_service
+package main
 
 import (
 	"github.com/jonathanmorais/endoenginnering/rec-service/pkg/logger"
