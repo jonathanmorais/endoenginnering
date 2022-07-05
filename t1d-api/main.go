@@ -3,8 +3,13 @@ package main
 // Importing fmt
 import (
 	"fmt"
+	"os"
+	"strconv"
+	"time"
+
 	"github.com/Depado/ginprom"
 	"github.com/gin-gonic/gin"
+	"github.com/jonathanmorais/endoenginnering/t1d-api/controllers/calculate"
 	"github.com/jonathanmorais/endoenginnering/t1d-api/controllers/healthcheck"
 	"github.com/jonathanmorais/endoenginnering/t1d-api/controllers/liveness"
 	"github.com/jonathanmorais/endoenginnering/t1d-api/controllers/readiness"
@@ -12,9 +17,6 @@ import (
 	"github.com/jonathanmorais/endoenginnering/t1d-api/pkg/memory_cache"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
-	"os"
-	"strconv"
-	"time"
 )
 
 // Calling main
@@ -70,7 +72,7 @@ func main() {
 	router.GET("/liveness", liveness.Ok)
 	router.GET("/readiness", readiness.Ok)
 	router.GET("/health", healthcheck.Ok)
-	//router.POST("/calculate", calculate.Calculate)
+	router.POST("/calculate", calculate.Calculate)
 
 	router.Run()
 }

@@ -1,10 +1,11 @@
 package recommend
 
 import (
+	"net/http"
+
 	"github.com/gin-gonic/gin"
 	"github.com/jonathanmorais/endoenginnering/cr-service/pkg/cr"
 	"github.com/jonathanmorais/endoenginnering/isf-service/pkg/isf"
-	"net/http"
 )
 
 type Request struct {

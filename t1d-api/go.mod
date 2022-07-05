@@ -14,9 +14,9 @@ require (
 	github.com/go-playground/validator/v10 v10.10.1 // indirect
 	github.com/goccy/go-json v0.9.7 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/jonathanmorais/endoenginnering/cr-service v0.0.0-20220614220114-c2aba3647e4f // indirect
-	github.com/jonathanmorais/endoenginnering/isf-service v0.0.0-20220614220114-c2aba3647e4f // indirect
-	github.com/jonathanmorais/endoenginnering/t1d-api/controllers/calculate v0.0.0-20220615215556-29a094b23526 // indirect
+	github.com/jonathanmorais/endoenginnering/cr-service v0.0.0-20220621180251-f46842095b7d // indirect
+	github.com/jonathanmorais/endoenginnering/isf-service v0.0.0-20220621180251-f46842095b7d // indirect
+	github.com/jonathanmorais/endoenginnering/rec-service v0.0.3 // indirect
 	github.com/jonathanmorais/endoenginnering/t1d-api/controllers/healthcheck v0.0.0-20220615215556-29a094b23526 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect

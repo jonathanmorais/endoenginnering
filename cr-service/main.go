@@ -33,12 +33,8 @@ func main() {
 	logInternal.Info().
 		Msg("Listener for carbohidra-service is created")
 
-	//	s := proteins.Server{}
-
 	grpcServer := grpc.NewServer(grpc.UnaryInterceptor(otelgrpc.UnaryServerInterceptor()),
 		grpc.StreamInterceptor(otelgrpc.StreamServerInterceptor()))
-
-	//	proteins.RegisterProteinsServiceServer(grpcServer, &s)
 
 	if err := grpcServer.Serve(lis); err != nil {
 		logInternal.Error().
@@ -47,6 +43,6 @@ func main() {
 	}
 
 	logInternal.Info().
-		Msg("Server proteins-grpc-service is enabled")
+		Msg("Server cr-service is enabled")
 
 }
