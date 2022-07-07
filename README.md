@@ -9,8 +9,9 @@ A api to provide type-1 diabetes summary calculate. ​👨‍🔬​🔎​🔬
 # microservices summary
 
 * `t1d-api`: REST Interface.
-* `cr-grpc`: gRPC microservice to provide Carbohydrate Ratio
-* `isf`: microservice to put the insulin Sensitivity Factor
+* `cr-service`: microservice to provide Carbohydrate Ratio
+* `is-service`: microservice to put the insulin Sensitivity Factor
+* `rec-service`: microservice that provide a calcule approximate of doses.  
 
 # API
 
